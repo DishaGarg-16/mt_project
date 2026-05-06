@@ -145,7 +145,7 @@ This project was not built in a single pass. It evolved through multiple iterati
 **Iteration 4 -- Data Cleaning**: The most impactful change came when the data cleaning pipeline was introduced. Previous iterations included noisy sentences with numbers, special characters, and very short fragments. Filtering these out significantly improved both baseline and augmented model performance -- BLEU scores jumped from around 10 to above 30.
 
 **Final Iteration -- Controlled Comparison**: The final experiment used cleaned data, proper splits, early stopping, and a carefully constructed baseline (2000 originals + 1000 duplicates) versus augmented (2000 originals + 1000 paraphrased) training set, both totaling 3000 pairs.
-
+![Description](iterations.png)
 ---
 
 ## Results
